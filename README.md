@@ -22,7 +22,6 @@ Enterprise-grade CLI orchestrator for xAI Grok: Hyper-scaled math manifolds (cha
 - xAI API Key (set via env: `XAI_API_KEY`)
 - Optional: CUDA for GPU (if Torch installed)
 
-```bash
 
 DOCKER
 docker build -t axom-apex .
