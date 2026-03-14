@@ -27,10 +27,12 @@ DOCKER
 docker build -t axom-apex .
 docker run -it --env XAI_API_KEY=your_key axom-apex
 
+
 Usage
 Run the engine:
 
 python axom_apex.py
+
 
 Commands (in CLI):
 
@@ -40,6 +42,7 @@ Commands (in CLI):
 /cosmo_sim ra dec dist: Astropy coord sim.
 General queries: Forwarded to Grok API.
 
+
 Config: Edit axom_config.yaml for model, precision, etc.
 Examples
 Cosmology Sim:
@@ -48,11 +51,13 @@ Cosmology Sim:
 Cosmo coord: 00h42m30.00s +41d12m00.0s
 Grok Insights: [AI reasoning on coords...]
 
+
 Logistic Viz:
 
 [OPERATOR] > /logistic 0.5 1000
 Logistic after 1000: 0.12345
 Visualization saved: logistic_vis.png
+
 
 Configuration
 Sample axom_config.yaml:
@@ -63,6 +68,7 @@ precision: 100
 use_gpu: true
 visualize: true
 
+
 Contributing
 Fork, PRs welcome! Focus on scientific extensions (e.g., more physics integrations). Run tests: python -m unittest axom_apex.py.
 License
@@ -72,5 +78,4 @@ Built for xAI's mission. Inspired by Grok's frontier capabilities. 🚀
 git clone https://github.com/yourusername/xAI-AxomApex.git
 
 
-cd xAI-AxomApex
 pip install -r requirements.txt  # Install deps (aiohttp, yaml, etc.)
