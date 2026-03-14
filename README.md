@@ -75,7 +75,7 @@ License
 MIT License. See LICENSE.
 Acknowledgments
 Built for xAI's mission. Inspired by Grok's frontier capabilities. 🚀
-git clone https://github.com/yourusername/xAI-AxomApex.git
+git clone https://github.com/RomanAILabs-Auth/xAI-AxomApex.git
 
 
 pip install -r requirements.txt  # Install deps (aiohttp, yaml, etc.)
